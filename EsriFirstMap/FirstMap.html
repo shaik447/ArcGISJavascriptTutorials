@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>First Map</title>
+
+    <link rel="stylesheet" href="http://js.arcgis.com/3.11/esri/css/esri.css">
+    <script src="http://js.arcgis.com/3.11/"></script>
+    <script type="text/javascript">
+        var map;
+        require(["esri/map", "dojo/domReady!"], function (Map) {
+            map = new Map("mapDiv", {basemap:"topo",zoom:3});
+        });
+    </script>
+    <style>
+        html, body, #mapDiv {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="mapDiv"></div>
+</body>
+</html>
