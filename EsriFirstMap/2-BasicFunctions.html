@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>First Map</title>
+
+    <link rel="stylesheet" href="http://js.arcgis.com/3.11/esri/css/esri.css">
+    <script src="http://js.arcgis.com/3.11/"></script>
+    <script src="Scripts/BasicFunctions.js"></script>
+    <style>
+        html, body,#mapDiv{
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+         #mapDiv {
+            height: 80%;
+        }
+
+         #basicButtons {
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: 40px;
+             width: 750px;
+         }
+        
+         .basicButton {
+             float: left;
+             width: 100px;
+             height: 40px;
+             margin-left: 2px;
+             margin-right: 2px;
+         }
+
+    </style>
+
+</head>
+<body>
+    <div id="mapDiv"></div>
+    
+    <div id="basicButtons">
+        <button id="centerMapBtn" class="basicButton" type="button">Center</button>
+        <button id="zoomMapBtn" class="basicButton" type="button">Zoom</button>
+        <button id="getExtentBtn" class="basicButton" type="button">Get Extent</button>
+        <button id="zoomtoExtentBtn" class="basicButton" type="button">Extent</button>
+        <button id="addLayerBtn" class="basicButton" type="button">Add Layer</button>
+        <button id="basemapBtn" class="basicButton" type="button">Change Basemap</button>
+        <button id="getLayersBtn" class="basicButton" type="button">Get Layers</button>
+    </div>
+    
+    
+</body>
+</html>

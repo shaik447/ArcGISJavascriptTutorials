@@ -65,7 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2-BasicFunctions.html" />
     <Content Include="FirstMap.html" />
+    <Content Include="Scripts\BasicFunctions.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -74,7 +76,6 @@
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Images\" />
-    <Folder Include="Script\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
